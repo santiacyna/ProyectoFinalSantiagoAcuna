@@ -1,0 +1,72 @@
+/*index*/
+.row{
+    background-color: #dbc0aa;
+}
+h1{
+    font-size: 34px;
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 24px;
+    text-shadow: -2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/*#nav-enlaces{
+  background-color: #38220f;
+}
+.enlaces{
+  color: #dbc0aa;
+  text-decoration: none;
+  font-family: 'Alegreya SC', serif;
+  
+}
+nav li{
+  background-color: #38220f;
+  color: #dbc0aa;
+  border: solid 2px #38220f;
+  padding: 10px 20px 10px 20px;
+  display: inline-flex;
+margin-right: 10px;
+}*/
+
+
+.buscador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -90px;
+}
+  
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    font-size: 15px;
+    border: papayawhip;
+    border-bottom: 4px solid #dbc0aa;
+    margin-right: 0px;
+    border-style: groove;
+  }
+  
+  button {
+    padding: 9px 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  #carrito{
+    display: flex;
+  }
+.compra{
+    position: absolute;
+    top: 28px;
+    right: 370px;
+  }
+.perfil{
+    position: absolute;
+    top: 28px;
+    right: 160px;
+  }
