@@ -1,5 +1,6 @@
 /*index*/
-.row{
+
+header{
     background-color: #dbc0aa;
 }
 h1{
@@ -9,24 +10,33 @@ h1{
     text-shadow: -2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-/*#nav-enlaces{
-  background-color: #38220f;
-}
-.enlaces{
-  color: #dbc0aa;
-  text-decoration: none;
-  font-family: 'Alegreya SC', serif;
-  
-}
-nav li{
-  background-color: #38220f;
-  color: #dbc0aa;
-  border: solid 2px #38220f;
-  padding: 10px 20px 10px 20px;
-  display: inline-flex;
-margin-right: 10px;
-}*/
 
+.navbar{
+  background-color: #38220f;
+
+}
+.navbar-brand.active {
+  color: #fff8dc;
+  font-family: 'Alegreya SC', serif;
+  --bs-navbar-brand-hover-color: #fff8dc;
+}
+
+/*.navbar-brand{
+  color: #ac8c62;
+  font-family: 'Alegreya SC', serif;
+  --bs-navbar-brand-hover-color: #fff8dc;
+
+}*/
+.nav-link{
+  color: #ac8c62;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  --bs-nav-link-hover-color: #fff8dc;
+}
+.navbar-nav .nav-link.active{
+  color: #fff8dc;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  --bs-nav-link-hover-color: #fff8dc;
+}
 
 .buscador{
     display: flex;
@@ -52,12 +62,12 @@ margin-right: 10px;
   
   button {
     padding: 9px 18px;
-    background-color: #4CAF50;
-    color: white;
+    background-color: #38220f;
+    color: #dbc0aa;
     border: none;
     cursor: pointer;
   }
-  #carrito{
+ /*#carrito{
     display: flex;
   }
 .compra{
@@ -69,4 +79,145 @@ margin-right: 10px;
     position: absolute;
     top: 28px;
     right: 160px;
-  }
+  }*/
+.perfil{
+  margin-top: 0px;
+  margin-right: 7px;
+}
+
+.compra{
+  margin-right: 100px;
+  margin-left: 30px;
+}
+.span-header{
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+#imagenes {
+  background-image: url(../Img/Fondo-Pag.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0px;
+}
+
+.Compra {
+  font-family: 'Alegreya SC', serif;
+  font-style: italic;
+  font-size: 50px;
+  position: relative;
+  top: -43px;
+  left: -68px;
+}
+
+.Forma {
+  font-family: 'Alegreya SC', serif;
+  font-style: italic;
+  font-size: 30px;
+  position: relative;
+  top: -27px;
+  left: -150px;
+}
+
+main{
+  background-image: url(../Img/marron-beige-crema-claro-lujo-abstracto-como-fondo-modelo-textura-seda-algodon_1258-63823.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 620px;
+}
+.h2-compra{
+  position: absolute;
+  font-size: 60px;
+  top: 38%;
+  margin-right: 0;
+  right: 47%;
+  font-family: 'Alegreya SC', serif;
+  font-weight: bold;
+}
+.h2-segura{
+  position: absolute;
+  left: 14%;
+  top: 46%;
+  font-size: 37px;
+  font-family: 'Alegreya SC', serif;
+  font-weight: bold;
+
+}
+.ark{
+  position: absolute;
+  transform: rotate(7deg);
+  top: 34%;
+  left: 75%;
+  border-radius: 4%;
+  width: 16%;
+}
+.fifa{
+  position: absolute;
+  transform: rotate(-8deg);
+  top: 33%;
+  right: 23%;
+  border-radius: 4%;
+  width: 16%;
+}
+.resident{
+  position: absolute;
+  transform: rotate(0deg);
+  top: 32%;
+  right: 15%;
+  border-radius: 4%;
+  width: 16%;
+}
+.catalogo  button{
+  position: absolute;
+    left: 14%;
+    top: 55%;
+    width: 10%;
+    color: #dbc0aa;
+    background-color: #38220f;
+    border-color:   #dbc0aa;  
+    font-family: 'Alegreya SC', serif;
+}
+.container.py-6{
+  margin-top: -15%;
+}
+#psplus{
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+text-decoration: none;
+}
+#psplus h3{
+  color: #000000a1; 
+}
+a{
+  text-decoration: none;
+}
+#ps5{
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+#ps5 h3{
+  color: #000000a1;
+}
+#ps4{
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+#ps4 h3{
+  color: #000000a1;
+}
+.card{
+  width: 18rem;
+
+}
+.card-row .col-md-2 {
+  margin-right: 8%;
+  margin-top: 2%;
+}
+footer {
+  background-color: aqua;
+  background-size: cover;
+  position: absolute;
+    top: 324%;
+    left: 0%;
+    width: 100%;
+}
+
