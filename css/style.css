@@ -21,12 +21,12 @@ h1{
   --bs-navbar-brand-hover-color: #fff8dc;
 }
 
-/*.navbar-brand{
+.navbar-brand{
   color: #ac8c62;
   font-family: 'Alegreya SC', serif;
   --bs-navbar-brand-hover-color: #fff8dc;
 
-}*/
+}
 .nav-link{
   color: #ac8c62;
   font-family: 'Kdam Thmor Pro', sans-serif;
@@ -118,25 +118,41 @@ h1{
   left: -150px;
 }
 
-main{
+#main-index{
   background-image: url(../Img/marron-beige-crema-claro-lujo-abstracto-como-fondo-modelo-textura-seda-algodon_1258-63823.avif);
   background-repeat: no-repeat;
   background-size: cover;
   max-height: 620px;
 }
-.h2-compra{
+.h2-encabezado{
   position: absolute;
   font-size: 60px;
-  top: 38%;
+  top: -285px;
   margin-right: 0;
-  right: 47%;
+  left: -58%;
   font-family: 'Alegreya SC', serif;
   font-weight: bold;
 }
+@media (max-width: 768px) {
+  .h2-encabezado {
+    width: 100%;
+    font-size: 45px;
+    position: absolute;
+    left: 0%;
+    top: -315px;
+  }
+}
+@media (max-width: 768px) {
+  .h2-segura {
+    width: 100%;
+    margin-left: 57%;
+    margin-top: 40%;
+  }
+}
 .h2-segura{
   position: absolute;
-  left: 14%;
-  top: 46%;
+  left: -57%;
+  top: -200px;
   font-size: 37px;
   font-family: 'Alegreya SC', serif;
   font-weight: bold;
@@ -145,26 +161,26 @@ main{
 .ark{
   position: absolute;
   transform: rotate(7deg);
-  top: 34%;
-  left: 75%;
+  top: -380px;
+  right: -765px;
   border-radius: 4%;
-  width: 16%;
+  width: 260px;
 }
-.fifa{
+.gta{
   position: absolute;
-  transform: rotate(-8deg);
-  top: 33%;
-  right: 23%;
+  transform: rotate(0deg);
+  top: -388px;
+  right: -656px;
   border-radius: 4%;
-  width: 16%;
+  width: 260px;
 }
 .resident{
   position: absolute;
-  transform: rotate(0deg);
-  top: 32%;
-  right: 15%;
+  transform: rotate(-8deg);
+  top: -380px;
+  right: -493px;
   border-radius: 4%;
-  width: 16%;
+  width: 260px;
 }
 .catalogo  button{
   position: absolute;
@@ -179,6 +195,7 @@ main{
 .container.py-6{
   margin-top: -15%;
 }
+
 #psplus{
   border-bottom: 1px solid #ccc;
   padding-bottom: 5px;
@@ -220,4 +237,220 @@ footer {
     left: 0%;
     width: 100%;
 }
+#footer-index{
+  position: absolute;
+    top: 260%;
+}
+@media (max-width: 768px) {
+  #footer-index {
+    position: relative;
 
+}
+}
+button.navbar-toggler {
+  background-color: #dbc0aa;
+  margin-left: 290%;
+}
+/* tienda*/
+#tienda{
+  font-size: 24px;
+  margin-top: 4%;
+  margin-left: 8%;
+  font-family: 'Kdam Thmor Pro', sans-serif
+
+}
+.breadcrumb-item a{
+  color: #00000040
+}
+.breadcrumb-item.active{
+  color: black;
+  font-weight: bold;
+}
+.sidebar {
+  width: 20%;
+  padding: 1%;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  margin: 0%;
+  padding: 12%;
+}
+
+.sidebar ul li {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15%;
+
+}
+
+.sidebar ul ul {
+  margin-left: 10%;
+  margin-top: 0%;
+}
+
+.sidebar ul ul li {
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 40%;
+}
+
+.sidebar ul ul ul {
+  margin-left: 7%;
+}
+
+.sidebar ul ul ul li {
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 4%;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #333;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+a#juegosDropdown{
+  --bs-nav-link-hover-color: #000;
+  text-decoration: none;
+}
+
+.cards-tienda{
+  position: absolute;
+    top: 30%;
+    left: 26%;
+    width: 65%;
+}
+ .card{
+  width: 14rem;
+ }
+
+ .cards-tienda2{
+  position: absolute;
+  top: 77%;
+  left: 25%;
+  width: 67%;
+ }
+.cards-tienda3{
+  position: absolute;
+    top: 122%;
+    left: 24%;
+    width: 69%;
+}
+.cards-tienda4{
+  position: absolute;
+  top: 167%;
+  left: 24%;
+  width: 69%;
+}
+.cards-tienda5{
+  position: absolute;
+    top: 212%;
+    left: 24%;
+    width: 69%;
+}
+#pagination{
+  position: absolute;
+    top: 267%;
+    left: 50%;
+}
+.pagination {
+  --bs-pagination-padding-x: 0.75rem;
+  --bs-pagination-padding-y: 0.375rem;
+  --bs-pagination-font-size: 1rem;
+  --bs-pagination-color: #67220f;
+  --bs-pagination-bg: #efe3d9;
+  --bs-pagination-border-width: 1px;
+  --bs-pagination-border-color: #67220f;
+  --bs-pagination-border-radius: var(--bs-border-radius);
+  --bs-pagination-hover-color: #010101;
+  --bs-pagination-hover-bg:#d2a26df5;
+  --bs-pagination-hover-border-color: #67220f;
+  --bs-pagination-focus-color: #efe3d9;
+  --bs-pagination-focus-bg: #67220f;
+  --bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgb(221 201 197 / 98%);
+  --bs-pagination-active-color: #bf1515;
+  --bs-pagination-active-bg: #fd440d;
+  --bs-pagination-active-border-color: #bf4c08;
+  --bs-pagination-disabled-color: #67220f;
+  --bs-pagination-disabled-bg: #67220f4d;
+  --bs-pagination-disabled-border-color: #67220f;
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+#footer-tienda{
+  position: absolute;
+  top: 280%;
+}
+
+/*ps4,ps5*/
+
+#ps4-pag{
+font-size: 24px;
+margin-top: 4%;
+margin-left: 8%;
+font-family: 'Kdam Thmor Pro', sans-serif
+}
+a#tarjetasDropdown{
+  --bs-nav-link-hover-color: #000000;
+    text-decoration: none;
+}
+.dropdown-item.active, .dropdown-item:active {
+  color: #dbc0aa;
+  text-decoration: none;
+  background-color: #38220f;
+}
+/*plus*/
+#pagination-plus{
+  position: absolute;
+  top: 170%;
+  left: 50%;
+}
+#footer-plus{
+  position: absolute;
+    top: 185%;
+}
+/*contacto*/
+
+.fondo-morde{
+  width: 100%;
+  max-height: 512px;
+}
+.imagen-morde{
+  position: absolute;
+  top: 10%;
+  left: 54%;
+  width: 30%;
+}
+#main-contacto h2{
+  font-size: 60px;
+  font-family: 'Alegreya SC', serif;
+  font-weight: bold;
+  position: absolute;
+    top: 30%;
+    left: 12%;
+}
+#main-contacto p{
+  font-size: 27px;
+  font-family: 'Alegreya SC', serif;
+  font-weight: bold;
+  position: absolute;
+  top: 44%;
+  left: 12%;
+}
+.canales-contacto.text-center{
+  margin-top: 10%;
+}
+.footer-contacto{
+  position: absolute;
+  top: 124%;
+}
+#footer-contacto{
+  position: absolute;
+    top: 120%;
+}
