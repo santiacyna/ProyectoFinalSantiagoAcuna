@@ -259,6 +259,10 @@ button.navbar-toggler {
   font-family: 'Kdam Thmor Pro', sans-serif
 
 }
+button.navbar-toggler {
+  position: absolute;
+  left: -210%;
+}
 .breadcrumb-item a{
   color: #00000040
 }
@@ -453,4 +457,29 @@ a#tarjetasDropdown{
 #footer-contacto{
   position: absolute;
     top: 120%;
+}
+@media (max-width: 768px) {
+  #main-contacto h2 {
+    position: relative;
+    font-size: 30px;
+    top: -190px;
+    left: 0px;
+}
+}
+@media (max-width: 768px) {
+  #main-contacto p {
+    position: relative;
+    font-size: 23px;
+    top: -147px;
+    left: -1px;}
+}
+@media(max-width: 768px){
+  .fondo-morde{
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  #footer-contacto {
+    position: relative;}
+
 }
