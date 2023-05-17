@@ -1,0 +1,57 @@
+.cards-tienda{
+    position: absolute;
+    top: 30%;
+    left: 26%;
+    width: 65%;
+}
+@media (max-width: 768px) {
+    .cards-tienda {
+        position: absolute;
+        top: 32%;
+        left: 35%;
+        width: 56%;
+  }
+  }
+    .card{
+       width: 14rem;
+    }    
+.cards-tienda2{
+    position: absolute;
+    top: 77%;
+    left: 25%;
+    width: 67%;  
+    }
+    @media (max-width: 768px) {
+        .cards-tienda2 {
+            position: absolute;
+            top: 209%;
+            left: 31%;
+            width: 65%;
+      }
+      }
+.cards-tienda3{
+    position: absolute;
+    top: 122%;
+    left: 24%;
+    width: 69%;
+    }
+    @media (max-width: 768px) {
+        .cards-tienda3 {
+            position: absolute;
+            top: 391%;
+            left: 32%;
+            width: 65%;
+      }
+      }
+.cards-tienda4{
+    position: absolute;
+    top: 167%;
+    left: 24%;
+    width: 69%;
+    }
+.cards-tienda5{
+    position: absolute;
+    top: 212%;
+    left: 24%;
+    width: 69%;
+    }

@@ -1,0 +1,12 @@
+#footer-tienda{
+    position: absolute;
+    top: 280%;
+    width: 100%;
+  }
+  @media (max-width: 768px) {
+    #footer-tienda {
+      position: absolute;
+      top: 580%;
+      width: 100%;
+  }
+  }

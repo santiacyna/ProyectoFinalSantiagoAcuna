@@ -1,0 +1,54 @@
+.cards-plus2{
+  position: absolute;
+  top: 77%;
+  left: 25%;
+  width: 67%;  
+  }
+  @media (max-width: 768px) {
+      .cards-plus2 {
+          position: absolute;
+          top: 232%;
+          left: 31%;
+          width: 65%;
+    }
+    }
+.cards-plus3{
+  position: absolute;
+  top: 122%;
+  left: 24%;
+  width: 69%;
+  }
+  @media (max-width: 768px) {
+      .cards-plus3 {
+          position: absolute;
+          top: 410%;
+          left: 32%;
+          width: 65%;
+    }
+    }
+
+
+#pagination-plus{
+    position: absolute;
+    top: 170%;
+    left: 50%;
+}
+  @media (max-width: 768px) {
+  #pagination-plus{
+    position: absolute;
+    top: 578%;
+    left: 20%;
+}
+}
+  #footer-plus{
+    position: absolute;
+    top: 185%;
+    width: 100%;
+}
+  @media (max-width: 768px) {
+  #footer-plus {
+    position: absolute;
+    top: 598%;
+    width: 100%;
+}
+}
