@@ -2,7 +2,7 @@ header{
     background-color: #dbc0aa;}
     h1{
         font-size: 34px;
-        font-family: 'Press Start 2P', cursive;
+        font-family: $fnt-flia-h1;
         margin-top: 24px;
         text-shadow: -2px 2px 5px rgba(0, 0, 0, 0.5);
     }
@@ -43,7 +43,8 @@ header{
         .span-header{
             font-family: 'Kdam Thmor Pro', sans-serif;
         }
-    .navbar{background-color: #38220f;
+    .navbar{
+        background-color: map-get($colores, bg-c );
         }
         button.navbar-toggler {
             background-color: #dbc0aa;

@@ -1,3 +1,7 @@
+h3 {
+  color: black;
+}
+
 header {
   background-color: #dbc0aa;
 }
@@ -162,10 +166,6 @@ button.navbar-toggler {
   text-decoration: none;
 }
 
-h3 {
-  color: rgba(0, 0, 0, 0.631372549);
-}
-
 a {
   text-decoration: none;
 }
@@ -184,17 +184,9 @@ a {
   padding-bottom: 5px;
 }
 
-h3 {
-  color: rgba(0, 0, 0, 0.631372549);
-}
-
 #ps4 {
   border-bottom: 1px solid #ccc;
   padding-bottom: 5px;
-}
-
-h3 {
-  color: rgba(0, 0, 0, 0.631372549);
 }
 
 #tienda {
