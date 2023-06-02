@@ -1,0 +1,84 @@
+.cards-ps5{
+    position: absolute;
+    top: 30%;
+    left: 26%;
+    width: 70%;
+}
+@media (max-width: 1024px) and (max-height: 600px) {
+    .card-container {
+      margin-top: 100px;
+    }
+  }
+  
+@media (max-width: 768px) {
+    .cards-ps5 {
+        position: absolute;
+        top: 36%;
+        left: 31%;
+        width: 56%;
+        z-index: 1;
+  }
+  }
+    .card{
+       width: 11rem;
+    }    
+.cards-ps52{
+    position: absolute;
+    top: 77%;
+    left: 26%;
+    width: 70%;  
+    }
+    @media (max-width: 1024px) and (max-height: 600px) {
+        .cards-ps52 {
+          top: 90%;
+        }
+      }
+    @media (max-width: 768px) {
+        .cards-ps52 {
+            position: absolute;
+            top: 203%;
+            left: 31%;
+            width: 65%;
+      }
+      }
+.cards-ps53{
+    position: absolute;
+    top: 122%;
+    left: 26%;
+    width: 70%;
+    }
+    @media (max-width: 1024px) and (max-height: 600px) {
+        .cards-ps53 {
+          top: 153%;
+        }
+      }
+    @media (max-width: 768px) {
+        .cards-ps53 {
+            position: absolute;
+            top: 365%;
+            left: 31%;
+            width: 65%;
+      }
+      }
+.cards-ps54{
+    position: absolute;
+    top: 167%;
+    left: 26%;
+    width: 70%;
+    }
+    @media (max-width: 1024px) and (max-height: 600px) {
+        .cards-ps54 {
+          top: 213%;
+        }
+      }
+.cards-ps55{
+    position: absolute;
+    top: 212%;
+    left: 26%;
+    width: 70%;
+    }
+    @media (max-width: 1024px) and (max-height: 600px) {
+        .cards-ps55 {
+          top: 272%;
+        }
+      }

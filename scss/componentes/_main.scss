@@ -1,63 +1,61 @@
 #main-index{
-    background-image: url(../Img/marron-beige-crema-claro-lujo-abstracto-como-fondo-modelo-textura-seda-algodon_1258-63823.avif);
+  background-image: url(../Img/64641d2c-3a7c-4681-919c-9ee48237970f.png);
   background-repeat: no-repeat;
   background-size: cover;
-  max-height: 620px;
+  max-height: 725px;
 }
+ .content-wrapper{
+  position: relative;
+ }
     .h2-encabezado{
         position: absolute;
         font-size: 60px;
         top: -285px;
         margin-right: 0;
-        left: -58%;
+        left: -75%;
         font-family: 'Alegreya SC', serif;
         font-weight: bold;
     }
-    @media (max-width: 768px) {
-        .h2-encabezado {
-          width: 100%;
-          font-size: 45px;
-          position: absolute;
-          left: 0%;
-          top: -315px;
-        }
+
+    @media (max-width: 1024px) and (max-height: 900px) {
+      .h2-encabezado{
+        position: absolute;
+        font-size: 43px;
+        top: -170px;
+        left: -60%;
+      }
     }
+
+    @media (max-width: 768px) {
+      .h2-encabezado {
+        width: 100%;
+        font-size: 45px;
+        position: absolute;
+        left: 0%;
+        top: -315px;
+      }
+  }
     .h2-segura{
         position: absolute;
-        left: -57%;
+        left: -75%;
         top: -200px;
-        font-size: 37px;
+        font-size: 40px;
         font-family: 'Alegreya SC', serif;
         font-weight: bold;
     }
-    @media (max-width: 768px) {
-        .h2-segura {
-          width: 100%;
-          margin-left: 57%;
-          margin-top: 40%;
-        }
+
+    @media (max-width: 1024px) and (max-height: 900px) {
+      .h2-segura{
+        position: absolute;
+        font-size: 30px;
+        top: -115px;
+        left: -60%;
     }
-    .ark{
-        position: absolute;
-        transform: rotate(7deg);
-        top: -380px;
-        right: -765px;
-        border-radius: 4%;
-        width: 260px;
-      }
-      .gta{
-        position: absolute;
-        transform: rotate(0deg);
-        top: -388px;
-        right: -656px;
-        border-radius: 4%;
-        width: 260px;
-      }
-      .resident{
-        position: absolute;
-        transform: rotate(-8deg);
-        top: -380px;
-        right: -558px;
-        border-radius: 4%;
-        width: 260px;
-      }
+  }
+  @media (max-width: 768px) {
+    .h2-segura {
+      width: 100%;
+      margin-left: 57%;
+      margin-top: 40%;
+    }
+}

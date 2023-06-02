@@ -45,6 +45,7 @@ header{
         }
     .navbar{
         background-color: map-get($colores, bg-c );
+        z-index: 2;
         }
         button.navbar-toggler {
             background-color: #dbc0aa;

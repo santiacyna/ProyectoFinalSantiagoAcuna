@@ -15,10 +15,15 @@
       top: 267%;
       left: 50%;
   }
+  @media (max-width: 1024px) and (max-height: 600px) {
+    #pagination-ps4 {
+      top: 351%;
+    }
+  }
   @media (max-width: 768px) {
     #pagination-ps4{
       position: absolute;
-      top: 582%;
+      top: 533%;
       left: 20%;
   }
   }
@@ -53,10 +58,15 @@
     top: 280%;
     width: 100%;
   }
+  @media (max-width: 1024px) and (max-height: 600px) {
+    #footer-ps4 {
+      top: 370%;
+    }
+  }
   @media (max-width: 768px) {
     #footer-ps4 {
       position: absolute;
-      top: 600%;
+      top: 547%;
       width: 100%;
   }
   }
