@@ -283,7 +283,7 @@ a#tarjetasDropdown {
 @media (max-width: 768px) {
   .cards-tienda2 {
     position: absolute;
-    top: 255%;
+    top: 295%;
     left: 31%;
     width: 65%;
   }
@@ -298,7 +298,7 @@ a#tarjetasDropdown {
 @media (max-width: 768px) {
   .cards-tienda3 {
     position: absolute;
-    top: 480%;
+    top: 555%;
     left: 31%;
     width: 65%;
   }
@@ -331,7 +331,7 @@ a#tarjetasDropdown {
 @media (max-width: 768px) {
   #pagination {
     position: absolute;
-    top: 710%;
+    top: 823%;
     left: 20%;
   }
 }
@@ -375,7 +375,7 @@ a#tarjetasDropdown {
 @media (max-width: 768px) {
   #footer-tienda {
     position: absolute;
-    top: 730%;
+    top: 840%;
     width: 100%;
   }
 }
