@@ -1,12 +1,17 @@
 #pagination{
     position: absolute;
-      top: 267%;
+      top: 250%;
       left: 50%;
+  }
+  @media (max-width: 1024px) and (max-height: 600px) {
+    #pagination {
+      top: 290%;
+    }
   }
   @media (max-width: 768px) {
     #pagination{
       position: absolute;
-      top: 568%;
+      top: 710%;
       left: 20%;
   }
   }

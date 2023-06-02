@@ -36,7 +36,7 @@
     @media (max-width: 768px) {
         .cards-ps52 {
             position: absolute;
-            top: 203%;
+            top: 227%;
             left: 31%;
             width: 65%;
       }
@@ -55,7 +55,7 @@
     @media (max-width: 768px) {
         .cards-ps53 {
             position: absolute;
-            top: 365%;
+            top: 413%;
             left: 31%;
             width: 65%;
       }
@@ -81,4 +81,67 @@
         .cards-ps55 {
           top: 272%;
         }
+      }
+
+      #pagination-ps5{
+        position: absolute;
+          top: 267%;
+          left: 50%;
+      }
+      @media (max-width: 1024px) and (max-height: 600px) {
+        #pagination-ps5 {
+          top: 351%;
+        }
+      }
+      @media (max-width: 768px) {
+        #pagination-ps5{
+          position: absolute;
+          top: 605%;
+          left: 20%;
+      }
+      }
+        #pagination-ps5 .pagination {
+        --bs-pagination-padding-x: 0.75rem;
+        --bs-pagination-padding-y: 0.375rem;
+        --bs-pagination-font-size: 1rem;
+        --bs-pagination-color: #67220f;
+        --bs-pagination-bg: #efe3d9;
+        --bs-pagination-border-width: 1px;
+        --bs-pagination-border-color: #67220f;
+        --bs-pagination-border-radius: var(--bs-border-radius);
+        --bs-pagination-hover-color: #010101;
+        --bs-pagination-hover-bg:#d2a26df5;
+        --bs-pagination-hover-border-color: #67220f;
+        --bs-pagination-focus-color: #efe3d9;
+        --bs-pagination-focus-bg: #67220f;
+        --bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgb(221 201 197 / 98%);
+        --bs-pagination-active-color: #bf1515;
+        --bs-pagination-active-bg: #fd440d;
+        --bs-pagination-active-border-color: #bf4c08;
+        --bs-pagination-disabled-color: #67220f;
+        --bs-pagination-disabled-bg: #67220f4d;
+        --bs-pagination-disabled-border-color: #67220f;
+        display: flex;
+        padding-left: 0;
+        list-style: none;
+      }
+    
+
+
+#footer-ps5{
+        position: absolute;
+        top: 280%;
+        width: 100%;
+      }
+  @media (max-width: 1024px) and (max-height: 600px) {
+        #footer-ps5 {
+          top: 370%;
+        }
+      }
+  @media (max-width: 768px) {
+        #footer-ps5 {
+          position: absolute;
+          top: 625%;
+          width: 100%;
+      }
       }
