@@ -12,11 +12,15 @@
   
 @media (max-width: 768px) {
     .cards-ps5 {
-        position: absolute;
-        top: 36%;
-        left: 31%;
-        width: 56%;
-        z-index: 1;
+      position: static;
+      display: grid; 
+      grid-template-columns: repeat(auto-fit, minmax(200px, 0fr));
+      gap: 20px; 
+      justify-content: center; 
+      align-items: center; 
+      width: 100%;
+      margin-top: -33%;
+      z-index: 1;
   }
   }
     .card{
@@ -35,10 +39,13 @@
       }
     @media (max-width: 768px) {
         .cards-ps52 {
-            position: absolute;
-            top: 227%;
-            left: 31%;
-            width: 65%;
+          position: static;
+          display: grid; 
+          grid-template-columns: repeat(auto-fit, minmax(200px, 0fr));
+          gap: 20px; 
+          justify-content: center; 
+          align-items: center; 
+          width: 100%;
       }
       }
 .cards-ps53{
@@ -54,10 +61,13 @@
       }
     @media (max-width: 768px) {
         .cards-ps53 {
-            position: absolute;
-            top: 413%;
-            left: 31%;
-            width: 65%;
+          position: static;
+          display: grid; 
+          grid-template-columns: repeat(auto-fit, minmax(200px, 0fr));
+          gap: 20px; 
+          justify-content: center; 
+          align-items: center; 
+          width: 100%;
       }
       }
 .cards-ps54{
@@ -95,9 +105,13 @@
       }
       @media (max-width: 768px) {
         #pagination-ps5{
-          position: absolute;
-          top: 605%;
-          left: 20%;
+          position: static;
+          display: grid; 
+          grid-template-columns: repeat(auto-fit, minmax(200px, 0fr));
+          gap: 20px; 
+          justify-content: center; 
+          align-items: center; 
+          width: 100%;
       }
       }
         #pagination-ps5 .pagination {
@@ -140,8 +154,12 @@
       }
   @media (max-width: 768px) {
         #footer-ps5 {
-          position: absolute;
-          top: 625%;
+          position: static;
+          display: grid; 
+          grid-template-columns: repeat(auto-fit, minmax(200px, 0fr));
+          gap: 20px; 
+          justify-content: center; 
+          align-items: center; 
           width: 100%;
       }
       }

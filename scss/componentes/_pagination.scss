@@ -10,9 +10,13 @@
   }
   @media (max-width: 768px) {
     #pagination{
-      position: absolute;
-      top: 823%;
-      left: 20%;
+      position: static;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 0fr)); 
+      gap: 20px;
+      justify-content: center; 
+      align-items: flex-start; 
+      width: 100%;
   }
   }
     .pagination {

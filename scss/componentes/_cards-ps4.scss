@@ -16,15 +16,20 @@
     }
 
   }
-@media (max-width: 768px) {
+  @media (max-width: 768px) {
     .cards-ps4 {
-        position: absolute;
-        top: 36%;
-        left: 31%;
-        width: 56%;
-        z-index: 1;
+      position: static;
+      display: grid; 
+      grid-template-columns: repeat(auto-fit, minmax(200px, 0fr));
+      gap: 20px; 
+      justify-content: center; 
+      align-items: center; 
+      width: 100%;
+      margin-top: -33%;
+      z-index: 1;
+    }
   }
-  }
+  
   .card {
     width: 11rem;
 }
@@ -44,14 +49,18 @@
           top: 90%;
         }
       }
-    @media (max-width: 768px) {
+      @media (max-width: 768px) {
         .cards-ps42 {
-            position: absolute;
-            top: 227%;
-            left: 31%;
-            width: 65%;
+          position: static;
+          display: grid; 
+          grid-template-columns: repeat(auto-fit, minmax(200px, 0fr));
+          gap: 20px; 
+          justify-content: center; 
+          align-items: center; 
+          width: 100%;
+        }
       }
-      }
+      
 .cards-ps43{
     position: absolute;
     top: 122%;
@@ -65,10 +74,13 @@
       }
     @media (max-width: 768px) {
         .cards-ps43 {
-            position: absolute;
-            top: 365%;
-            left: 31%;
-            width: 65%;
+          position: static;
+          display: grid; 
+          grid-template-columns: repeat(auto-fit, minmax(200px, 0fr));
+          gap: 20px; 
+          justify-content: center; 
+          align-items: center; 
+          width: 100%;
       }
       }
 .cards-ps44{

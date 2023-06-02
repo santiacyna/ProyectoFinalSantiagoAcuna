@@ -10,15 +10,21 @@
     }
   }
   
-@media (max-width: 768px) {
+  @media (max-width: 768px) {
     .cards-tienda {
-        position: absolute;
-        top: 17%;
-        left: 32%;
-        width: 65%;
-        z-index: 1;
+      position: static;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 0fr)); 
+      gap: 20px;
+      justify-content: center; 
+      align-items: flex-start; 
+      width: 100%;
+      margin-top: -57%;
+      z-index: 1;
+    }
   }
-  }
+  
+  
     .card{
        width: 11rem;
     }    
@@ -30,10 +36,13 @@
     }
     @media (max-width: 768px) {
         .cards-tienda2 {
-            position: absolute;
-            top: 295%;
-            left: 31%;
-            width: 65%;
+            position: static;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 0fr)); 
+            gap: 20px;
+            justify-content: center; 
+            align-items: flex-start; 
+            width: 100%;
       }
       }
 .cards-tienda3{
@@ -44,10 +53,13 @@
     }
     @media (max-width: 768px) {
         .cards-tienda3 {
-            position: absolute;
-            top: 555%;
-            left: 31%;
-            width: 65%;
+            position: static;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 0fr)); 
+            gap: 20px;
+            justify-content: center; 
+            align-items: flex-start; 
+            width: 100%;
       }
       }
 .cards-tienda4{

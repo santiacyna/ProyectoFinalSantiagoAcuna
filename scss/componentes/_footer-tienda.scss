@@ -10,8 +10,12 @@
   }
   @media (max-width: 768px) {
     #footer-tienda {
-      position: absolute;
-      top: 840%;
+      position: static;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 0fr)); 
+      gap: 20px;
+      justify-content: center; 
+      align-items: flex-start; 
       width: 100%;
   }
   }

@@ -262,10 +262,14 @@ a#tarjetasDropdown {
 }
 @media (max-width: 768px) {
   .cards-tienda {
-    position: absolute;
-    top: 17%;
-    left: 32%;
-    width: 65%;
+    position: static;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: -57%;
     z-index: 1;
   }
 }
@@ -282,10 +286,13 @@ a#tarjetasDropdown {
 
 @media (max-width: 768px) {
   .cards-tienda2 {
-    position: absolute;
-    top: 295%;
-    left: 31%;
-    width: 65%;
+    position: static;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
   }
 }
 .cards-tienda3 {
@@ -297,10 +304,13 @@ a#tarjetasDropdown {
 
 @media (max-width: 768px) {
   .cards-tienda3 {
-    position: absolute;
-    top: 555%;
-    left: 31%;
-    width: 65%;
+    position: static;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
   }
 }
 .cards-tienda4 {
@@ -330,9 +340,13 @@ a#tarjetasDropdown {
 }
 @media (max-width: 768px) {
   #pagination {
-    position: absolute;
-    top: 823%;
-    left: 20%;
+    position: static;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
   }
 }
 .pagination {
@@ -374,8 +388,12 @@ a#tarjetasDropdown {
 }
 @media (max-width: 768px) {
   #footer-tienda {
-    position: absolute;
-    top: 840%;
+    position: static;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
     width: 100%;
   }
 }
@@ -405,9 +423,11 @@ a#tarjetasDropdown {
 }
 @media (max-width: 768px) {
   #pagination-ps4 {
-    position: absolute;
-    top: 555%;
-    left: 20%;
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
   }
 }
 #pagination-ps4 .pagination {
@@ -449,9 +469,11 @@ a#tarjetasDropdown {
 }
 @media (max-width: 768px) {
   #footer-ps4 {
-    position: absolute;
-    top: 570%;
+    position: static;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 .cards-plus1 {
@@ -463,10 +485,14 @@ a#tarjetasDropdown {
 
 @media (max-width: 768px) {
   .cards-plus1 {
-    position: absolute;
-    top: 33%;
-    left: 31%;
-    width: 65%;
+    position: static;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: -33%;
   }
 }
 .cards-plus2 {
@@ -483,10 +509,13 @@ a#tarjetasDropdown {
 }
 @media (max-width: 768px) {
   .cards-plus2 {
-    position: absolute;
-    top: 234%;
-    left: 31%;
-    width: 65%;
+    position: static;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
 }
 .cards-plus3 {
@@ -503,10 +532,13 @@ a#tarjetasDropdown {
 }
 @media (max-width: 768px) {
   .cards-plus3 {
-    position: absolute;
-    top: 412%;
-    left: 31%;
-    width: 65%;
+    position: static;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
 }
 #pagination-plus {
@@ -522,9 +554,13 @@ a#tarjetasDropdown {
 }
 @media (max-width: 768px) {
   #pagination-plus {
-    position: absolute;
-    top: 582%;
-    left: 20%;
+    position: static;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
 }
 #footer-plus {
@@ -540,8 +576,12 @@ a#tarjetasDropdown {
 }
 @media (max-width: 768px) {
   #footer-plus {
-    position: absolute;
-    top: 600%;
+    position: static;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
     width: 100%;
   }
 }
@@ -659,10 +699,14 @@ div h2 {
 }
 @media (max-width: 768px) {
   .cards-ps4 {
-    position: absolute;
-    top: 36%;
-    left: 31%;
-    width: 56%;
+    position: static;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: -33%;
     z-index: 1;
   }
 }
@@ -689,10 +733,13 @@ div h2 {
 }
 @media (max-width: 768px) {
   .cards-ps42 {
-    position: absolute;
-    top: 227%;
-    left: 31%;
-    width: 65%;
+    position: static;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
 }
 .cards-ps43 {
@@ -709,10 +756,13 @@ div h2 {
 }
 @media (max-width: 768px) {
   .cards-ps43 {
-    position: absolute;
-    top: 365%;
-    left: 31%;
-    width: 65%;
+    position: static;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
 }
 .cards-ps44 {
@@ -753,10 +803,14 @@ div h2 {
 }
 @media (max-width: 768px) {
   .cards-ps5 {
-    position: absolute;
-    top: 36%;
-    left: 31%;
-    width: 56%;
+    position: static;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: -33%;
     z-index: 1;
   }
 }
@@ -778,10 +832,13 @@ div h2 {
 }
 @media (max-width: 768px) {
   .cards-ps52 {
-    position: absolute;
-    top: 227%;
-    left: 31%;
-    width: 65%;
+    position: static;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
 }
 .cards-ps53 {
@@ -798,10 +855,13 @@ div h2 {
 }
 @media (max-width: 768px) {
   .cards-ps53 {
-    position: absolute;
-    top: 413%;
-    left: 31%;
-    width: 65%;
+    position: static;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
 }
 .cards-ps54 {
@@ -841,9 +901,13 @@ div h2 {
 }
 @media (max-width: 768px) {
   #pagination-ps5 {
-    position: absolute;
-    top: 605%;
-    left: 20%;
+    position: static;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
 }
 #pagination-ps5 .pagination {
@@ -885,8 +949,12 @@ div h2 {
 }
 @media (max-width: 768px) {
   #footer-ps5 {
-    position: absolute;
-    top: 625%;
+    position: static;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
     width: 100%;
   }
 }
