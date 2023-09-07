@@ -661,9 +661,13 @@ div h2 {
   --bs-btn-border-color: #6c757d;
 }
 
+#formulario-contacto {
+  margin-top: 4%;
+}
+
 #footer-contacto {
   position: absolute;
-  top: 120%;
+  top: 142%;
   width: 100%;
 }
 
@@ -957,6 +961,28 @@ div h2 {
     align-items: center;
     width: 100%;
   }
+}
+.cart-card {
+  background-color: rgba(219, 192, 170, 0.3411764706);
+  border: 1px solid #38220f;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.cart-card p {
+  font-size: 140%;
+}
+
+.cart-card img {
+  width: 20%;
+}
+
+.cart-card button {
+  padding: 9px 18px;
+  background-color: #38220f;
+  color: #dbc0aa;
+  border: none;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */

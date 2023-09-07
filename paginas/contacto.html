@@ -56,7 +56,9 @@
               <div class="d-flex align-items-center justify-content-end">
                 <img src="../Img/perfil.png" alt="silueta de persona" class="perfil ml-2 d-none d-md-block">
                 <span class="span-header d-none d-md-block">Mi cuenta</span>
-                <img src="../Img/carrito-de-compras (1).png" alt="silueta de carrito de compra" class="compra ml-2 d-none d-md-block">
+                <a href="../paginas/carrito.html">
+                  <img src="../Img/carrito-de-compras (1).png" alt="silueta de carrito de compra" class="compra ml-2 d-none d-md-block">
+                </a>
               </div>
             </div>     
      </header>
@@ -149,6 +151,19 @@
         </div>
     </div>
     
+    <form id="formulario-contacto">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+    
+      <label for="email">Correo Electrónico:</label>
+      <input type="email" id="email" name="email" required>
+    
+      <label for="queja">Queja:</label>
+      <textarea id="queja" name="queja" rows="4" required></textarea>
+    
+      <button type="submit">Enviar Queja</button>
+    </form>
+    
 
     </main>
 
@@ -167,5 +182,7 @@
         </div>
       </footer>
 
+
+<script src="../javascript/contacto.js"></script>
 </body>
 </html>
